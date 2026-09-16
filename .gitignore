@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Local QA artefacts from screenshot comparison passes (33MB of PNGs)
+temporary screenshots/
+
+# Logs
+*.log
