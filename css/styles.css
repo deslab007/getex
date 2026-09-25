@@ -904,3 +904,17 @@ footer ul li a:hover,
   .article-grid { grid-template-columns: 1fr; }
   .news-empty { padding: 40px 22px; }
 }
+
+/* About hero: the subjects sit centre-right and the left third is bright
+   glazing, so crop to keep faces in frame and deepen the left of the
+   overlay to hold white-text contrast. */
+.about-hero .page-hero-img { object-position: center 38%; }
+.about-hero .page-hero-overlay {
+  /* Hold contrast to ~48% across, where the headline ends, then fall away
+     quickly so the subjects are not dimmed. */
+  background: linear-gradient(to right,
+    rgba(0,0,0,0.74) 0%,
+    rgba(0,0,0,0.66) 34%,
+    rgba(0,0,0,0.30) 56%,
+    rgba(0,0,0,0.04) 86%);
+}
