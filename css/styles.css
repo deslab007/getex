@@ -918,3 +918,16 @@ footer ul li a:hover,
     rgba(0,0,0,0.30) 56%,
     rgba(0,0,0,0.04) 86%);
 }
+
+/* HERO BAND — full-bleed header image with no text over it. For photos that
+   cannot carry an overlay, such as group shots where faces fill the frame. */
+.hero-band { width: 100%; height: 520px; overflow: hidden; background: #1a1a1a; }
+.hero-band img {
+  width: 100%; height: 100%; object-fit: cover;
+  object-position: center 64%; display: block;
+}
+/* The text header sits directly beneath, so drop its top padding a little */
+.hero-band + .page-header { padding-top: 44px; }
+
+@media (max-width: 1024px) { .hero-band { height: 420px; } }
+@media (max-width: 768px)  { .hero-band { height: 250px; } }
