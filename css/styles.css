@@ -116,7 +116,6 @@ nav.breadcrumb { display: block; position: static; height: auto; padding: 0;
 .service-detail { background: #fff; padding: 64px 80px; }
 .service-detail.alt { background: #f7f7f5; }
 .service-detail-head { max-width: 720px; margin-bottom: 40px; }
-.service-detail-num { display: inline-block; font-size: 12px; font-weight: 700; color: #71BE43; letter-spacing: 0.1em; margin-bottom: 10px; }
 .service-detail-head h2 { font-size: 30px; font-weight: 700; color: #1a1a1a; margin-bottom: 12px; }
 .service-detail-head p { font-size: 16px; color: #666; line-height: 1.65; }
 .service-detail-body { display: grid; grid-template-columns: 1.6fr 1fr; gap: 48px; align-items: start; }
