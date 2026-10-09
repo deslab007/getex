@@ -175,11 +175,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            / Netlify Forms), or replace with the WordPress form on migration. -->
       <form id="enquiry-form" class="enquiry-form" method="post" action="#" novalidate>
 
-        <div class="field">
-          <label for="f-name">Name <span class="req" aria-hidden="true">*</span></label>
-          <input type="text" id="f-name" name="name" autocomplete="name" required
-                 aria-describedby="e-name">
-          <p class="field-error" id="e-name" role="alert" hidden></p>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-first-name">First name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="f-first-name" name="first_name" autocomplete="given-name" required
+                   aria-describedby="e-first-name">
+            <p class="field-error" id="e-first-name" role="alert" hidden></p>
+          </div>
+          <div class="field">
+            <label for="f-last-name">Last name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="f-last-name" name="last_name" autocomplete="family-name" required
+                   aria-describedby="e-last-name">
+            <p class="field-error" id="e-last-name" role="alert" hidden></p>
+          </div>
         </div>
 
         <div class="field">

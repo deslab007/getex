@@ -20,7 +20,8 @@
   var submit = form.querySelector('.form-submit');
 
   var RULES = [
-    { name: 'name',         error: 'e-name',    message: 'Please enter your name.' },
+    { name: 'first_name',   error: 'e-first-name', message: 'Please enter your first name.' },
+    { name: 'last_name',    error: 'e-last-name',  message: 'Please enter your last name.' },
     { name: 'email',        error: 'e-email',   message: 'Please enter your email address.' },
     { name: 'enquiry_type', error: 'e-type',    message: 'Please choose what you need help with.' },
     { name: 'message',      error: 'e-message', message: 'Please tell us about your project.' }
@@ -87,7 +88,8 @@
 
   function payload() {
     return {
-      name: valueOf('name'),
+      first_name: valueOf('first_name'),
+      last_name: valueOf('last_name'),
       organisation: valueOf('organisation'),
       email: valueOf('email'),
       phone: valueOf('phone'),
@@ -98,7 +100,7 @@
 
   function mailtoFallback(data) {
     var body = [
-      'Name: ' + data.name,
+      'Name: ' + data.first_name + ' ' + data.last_name,
       'Organisation: ' + (data.organisation || '-'),
       'Email: ' + data.email,
       'Phone: ' + (data.phone || '-'),
