@@ -579,10 +579,6 @@ footer ul li a:hover,
   transform: translateY(-3px); border-color: #cfe4bd;
   box-shadow: 0 2px 4px rgba(26,40,16,0.06), 0 20px 38px -18px rgba(65,110,35,0.22);
 }
-.sector-num {
-  display: inline-block; font-size: 12px; font-weight: 700; color: #71BE43;
-  letter-spacing: 0.12em; margin-bottom: 10px;
-}
 .sector-card h2 { font-size: 22px; font-weight: 700; color: #1a1a1a; line-height: 1.25; margin-bottom: 12px; }
 .sector-intro { font-size: 15px; color: #666; line-height: 1.65; margin-bottom: 22px; }
 .sector-card h3 {
