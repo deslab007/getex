@@ -975,3 +975,9 @@ nav ul { margin-right: 20px; }
   .search-inner { padding: 14px 20px 18px; }
   .search-form input { font-size: 16px; padding: 12px 0; }
 }
+/* About team photo: band height follows the photo's shape (about 2:1) so all
+   six people stay in frame at any width, capped on very wide screens. */
+.hero-band--team { height: min(49vw, 760px); }
+.hero-band--team img { object-position: center 15%; }
+@media (max-width: 1024px) { .hero-band--team { height: 49vw; } }
+@media (max-width: 768px)  { .hero-band--team { height: 49vw; } }
