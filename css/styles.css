@@ -1002,7 +1002,7 @@ a.accred-logo-tile:active { transform: translateY(0); }
 /* About hero: heading over the team photo, lower-left on a dark gradient */
 .hero-band--team { position: relative; }
 .hero-band--team::after { content: ''; position: absolute; inset: 0; pointer-events: none;
-  background: linear-gradient(to top, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.55) 22%, rgba(0,0,0,0) 48%); }
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.66) 28%, rgba(0,0,0,0.3) 46%, rgba(0,0,0,0) 62%); }
 .hero-band-text { position: absolute; left: 80px; right: 80px; bottom: 44px; z-index: 1; }
 .hero-band-text h1 { font-size: 40px; font-weight: 700; color: #fff; line-height: 1.15; letter-spacing: -0.5px; max-width: 820px; text-shadow: 0 2px 18px rgba(0,0,0,0.45); }
 .hero-band-text p { margin-top: 12px; font-size: 18px; color: rgba(255,255,255,0.92); line-height: 1.5; max-width: 620px; text-shadow: 0 1px 12px rgba(0,0,0,0.5); }
@@ -1022,3 +1022,27 @@ a.accred-logo-tile:active { transform: translateY(0); }
   .hero-band-text p { font-size: 15px; margin-top: 10px; text-shadow: none; }
   .page-header--lead .page-header-intro { font-size: 17px; }
 }
+
+/* About hero: breadcrumb and page label above the heading, as on other pages */
+.hero-band-text nav.breadcrumb { color: rgba(255,255,255,0.7); margin-bottom: 14px; text-shadow: 0 1px 10px rgba(0,0,0,0.5); }
+.hero-band-text nav.breadcrumb a { color: rgba(255,255,255,0.85); }
+.hero-band-text nav.breadcrumb a:hover { color: #fff; text-decoration: underline; }
+.hero-band-text nav.breadcrumb span[aria-hidden] { color: rgba(255,255,255,0.45); }
+.hero-band-text .section-label { color: #8fd45f; margin-bottom: 10px; text-shadow: 0 1px 10px rgba(0,0,0,0.5); }
+.page-header--lead { padding-top: 44px; padding-bottom: 48px; }
+@media (max-width: 768px) {
+  .hero-band-text nav.breadcrumb, .hero-band-text .section-label { text-shadow: none; }
+  .page-header--lead { padding-top: 28px; padding-bottom: 32px; }
+}
+
+/* Header fit between tablet and small-laptop widths: keep nav items on one line */
+nav ul li a, .nav-cta { white-space: nowrap; }
+@media (max-width: 1024px) {
+  nav { padding: 0 24px; }
+  nav ul { gap: 16px; margin-right: 10px; }
+  nav ul li a { font-size: 13.5px; }
+  nav .logo-area img { height: 54px !important; }
+  .nav-search-btn { width: 36px; height: 36px; margin-right: 10px; }
+  .nav-cta { padding: 9px 14px; font-size: 13px; }
+}
+@media (max-width: 768px) { nav { padding: 12px 24px; } nav .logo-area img { height: 44px !important; } .nav-search-btn { margin-right: 0; } }
