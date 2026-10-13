@@ -64,7 +64,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "Sectors",
 "url": "sectors/",
 "heading": "Who we work with",
-"text": ""
+"text": "Serving property managers, councils, government agencies, hospitals, schools and builders."
 },
 {
 "page": "Sectors",
