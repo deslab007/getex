@@ -98,6 +98,18 @@ window.GETEX_SEARCH_INDEX = [
 },
 {
 "page": "About",
+"url": "about/#accreditations",
+"heading": "Accreditations",
+"text": "NATA Accreditation (ISO/IEC 17020) – Asbestos & Hazardous Materials Inspections and Surveys NATA Accreditation (ISO/IEC 17020) – Airborne Contaminant Monitoring ISO 9001 – Quality Management Systems ISO 45001 – Occupational Health & Safety Management Systems Certified Environmental Practitioner, Site Contamination Specialist (CEnvP)"
+},
+{
+"page": "About",
+"url": "about/#accreditations",
+"heading": "Why accreditation matters",
+"text": "Recognised methodology and reporting that stands up to regulatory and audit scrutiny. Getex is one of a small number of independent environmental consultancies in NSW accredited by NATA for both hazardous materials inspections and airborne contaminant monitoring."
+},
+{
+"page": "About",
 "url": "about/#what-we-bring",
 "heading": "What we bring",
 "text": "The principles that shape how we work with our clients."
@@ -124,19 +136,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "About",
 "url": "about/#what-we-bring",
 "heading": "We remember your sites",
-"text": "With over 20 years of project history, many of our clients return to us knowing we already hold their site records, previous surveys and monitoring results. We pick up where we left off. No re-briefing, no lost context, just consistent advice from people who know your asset."
-},
-{
-"page": "About",
-"url": "about/#accreditations",
-"heading": "Accreditations",
-"text": "NATA Accreditation (ISO/IEC 17020) – Asbestos & Hazardous Materials Inspections and Surveys NATA Accreditation (ISO/IEC 17020) – Airborne Contaminant Monitoring ISO 9001 – Quality Management Systems ISO 45001 – Occupational Health & Safety Management Systems Certified Environmental Practitioner, Site Contamination Specialist (CEnvP)"
-},
-{
-"page": "About",
-"url": "about/#accreditations",
-"heading": "Why accreditation matters",
-"text": "Recognised methodology and reporting that stands up to regulatory and audit scrutiny. Getex is one of a small number of independent environmental consultancies in NSW accredited by NATA for both hazardous materials inspections and airborne contaminant monitoring. Our people"
+"text": "With over 20 years of project history, many of our clients return to us knowing we already hold their site records, previous surveys and monitoring results. We pick up where we left off. No re-briefing, no lost context, just consistent advice from people who know your asset. Our people"
 },
 {
 "page": "About",
