@@ -981,3 +981,11 @@ nav ul { margin-right: 20px; }
 .hero-band--team img { object-position: center 15%; }
 @media (max-width: 1024px) { .hero-band--team { height: 49vw; } }
 @media (max-width: 768px)  { .hero-band--team { height: 49vw; } }
+
+/* Footer LinkedIn link */
+.footer-social { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 20px; font-size: 13px; font-weight: 600; color: #fff; text-decoration: none; }
+.footer-social svg { width: 26px; height: 26px; fill: #fff; flex-shrink: 0; transition: transform 0.2s; }
+.footer-social:hover span { text-decoration: underline; }
+.footer-social:hover svg { transform: translateY(-2px); }
+.footer-social:focus-visible { outline: 2px solid #fff; outline-offset: 4px; border-radius: 2px; }
+.footer-social:active svg { transform: translateY(0); }
