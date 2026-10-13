@@ -989,3 +989,12 @@ nav ul { margin-right: 20px; }
 .footer-social:hover svg { transform: translateY(-2px); }
 .footer-social:focus-visible { outline: 2px solid #fff; outline-offset: 4px; border-radius: 2px; }
 .footer-social:active svg { transform: translateY(0); }
+
+/* NATA register links (About accreditations) */
+.accred-list li a { color: inherit; text-decoration: underline; text-decoration-color: rgba(113,190,67,0.6); text-underline-offset: 3px; }
+.accred-list li a:hover { color: #4d8a2a; text-decoration-color: #71BE43; }
+.accred-list li a:focus-visible { outline: 2px solid #71BE43; outline-offset: 2px; border-radius: 2px; }
+a.accred-logo-tile { text-decoration: none; transition: border-color 0.2s, transform 0.2s; }
+a.accred-logo-tile:hover { border-color: #71BE43; transform: translateY(-2px); }
+a.accred-logo-tile:focus-visible { outline: 2px solid #71BE43; outline-offset: 2px; }
+a.accred-logo-tile:active { transform: translateY(0); }
