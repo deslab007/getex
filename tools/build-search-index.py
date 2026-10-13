@@ -26,7 +26,7 @@ SKIP_TAGS = {'script', 'style', 'noscript', 'svg', 'nav', 'footer', 'form', 'tem
 # ids that are layout hooks, not destinations
 IGNORE_IDS = {'work-track', 'dot-0', 'dot-1', 'article-grid', 'news-empty', 'enquiry-form'}
 # subheadings too generic to stand alone - folded into the section above
-MERGE = {'Core services', 'Where this is applied', 'Typical work includes'}
+MERGE = {'Core services', 'Where this is applied', 'Typical work includes', 'Selected work'}
 # headings that aren't useful as results
 DROP = {'No articles published yet', 'Direct contact', 'Send us your project details.'}
 VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'source', 'track', 'wbr'}

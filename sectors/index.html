@@ -131,57 +131,160 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </header>
 
-<!-- ===== SECTORS — 2x2 grid, equal-height cards =====
-     Reusable block: duplicate an <article> and swap content.
-     TODO: README asks each sector to link to 2-3 relevant Selected Work
-     examples. Client has not yet supplied the sector tagging per project,
-     so those links are not built. -->
+<!-- ===== SECTORS — one full-width block per sector =====
+     Each block: heading and intro beside the typical-work list, then three
+     Selected Work panels. The panels repeat the homepage Selected Work cards
+     (same wording); update both places if a project's copy changes. -->
 <section class="sectors-detail">
   <div class="sectors-grid">
 
     <article class="sector-card" id="government">
-      <h2>Government, Councils &amp; Public Assets</h2>
-      <p class="sector-intro">Government authorities and councils responsible for public infrastructure, facilities and community assets.</p>
-      <h3>Typical work includes</h3>
-      <ul class="sector-list">
-        <li>Asbestos surveys, registers and ongoing management across diverse building portfolios</li>
-        <li>Contaminated land and environmental assessment for public works, open space, infrastructure and redevelopment</li>
-        <li>Investigation and testing of environmental hazards across public and outdoor environments</li>
-        <li><a href="../venm-certificate/" class="inline-link">VENM certificates</a> and soil classification for infrastructure and civil works</li>
-      </ul>
+      <div class="sector-top">
+        <div class="sector-head">
+          <h2>Government, Councils &amp; Public Assets</h2>
+          <p class="sector-intro">Government authorities and councils responsible for public infrastructure, facilities and community assets.</p>
+        </div>
+        <div class="sector-work-list">
+          <h3>Typical work includes</h3>
+          <ul class="sector-list">
+            <li>Asbestos surveys, registers and ongoing management across diverse building portfolios</li>
+            <li>Contaminated land and environmental assessment for public works, open space, infrastructure and redevelopment</li>
+            <li>Investigation and testing of environmental hazards across public and outdoor environments</li>
+            <li><a href="../venm-certificate/" class="inline-link">VENM certificates</a> and soil classification for infrastructure and civil works</li>
+          </ul>
+        </div>
+      </div>
+      <div class="sector-projects">
+        <h3>Selected work</h3>
+        <div class="work-grid">
+          <div class="work-card">
+            <div class="client">Ku-ring-gai Council</div>
+            <h4>Asbestos survey program</h4>
+            <p>Surveys and resurveys across 35 council assets including public facilities, childcare centres and commercial properties.</p>
+          </div>
+          <div class="work-card">
+            <div class="client">Penrith City Council</div>
+            <h4>Contaminated land investigation and remediation</h4>
+            <p>Multi-site program including detailed investigations, remedial action plans, on-site supervision and landfill gas monitoring.</p>
+          </div>
+          <div class="work-card">
+            <div class="client">NSW National Parks & Wildlife Service</div>
+            <h4>Fire trail asbestos inspections</h4>
+            <p>Asbestos inspection, delineation, waste classification and clearance across fire trails and park infrastructure in Greater Sydney.</p>
+          </div>
+        </div>
+      </div>
     </article>
 
     <article class="sector-card" id="health-education-defence">
-      <h2>Health, Education &amp; Defence</h2>
-      <p class="sector-intro">Sensitive and high-compliance environments where safety, continuity of operations and regulatory requirements are critical.</p>
-      <h3>Typical work includes</h3>
-      <ul class="sector-list">
-        <li>Asbestos and hazardous materials management within hospitals, schools and secure environments</li>
-        <li>Monitoring programs aligned with site use, occupancy and access constraints</li>
-        <li>Assessment and ongoing monitoring supporting safe operation of facilities, including air, water and environmental quality</li>
-      </ul>
+      <div class="sector-top">
+        <div class="sector-head">
+          <h2>Health, Education &amp; Defence</h2>
+          <p class="sector-intro">Sensitive and high-compliance environments where safety, continuity of operations and regulatory requirements are critical.</p>
+        </div>
+        <div class="sector-work-list">
+          <h3>Typical work includes</h3>
+          <ul class="sector-list">
+            <li>Asbestos and hazardous materials management within hospitals, schools and secure environments</li>
+            <li>Monitoring programs aligned with site use, occupancy and access constraints</li>
+            <li>Assessment and ongoing monitoring supporting safe operation of facilities, including air, water and environmental quality</li>
+          </ul>
+        </div>
+      </div>
+      <div class="sector-projects">
+        <h3>Selected work</h3>
+        <div class="work-grid">
+          <div class="work-card">
+            <div class="client">NSW Health<span class="client-project">Hornsby Hospital</span></div>
+            <h4>Asbestos monitoring and ongoing management</h4>
+            <p>Air monitoring, clearance and register management across ongoing works at an operational public hospital.</p>
+          </div>
+          <div class="work-card">
+            <div class="client">Knox Grammar School</div>
+            <h4>Hazardous building materials survey</h4>
+            <p>Full campus survey and register for a large operational independent school.</p>
+          </div>
+          <div class="work-card">
+            <div class="client">University of Technology Sydney</div>
+            <h4>Indoor air quality and hazardous materials</h4>
+            <p>Air quality assessments and long-term asbestos survey and monitoring services across the campus.</p>
+          </div>
+        </div>
+      </div>
     </article>
 
     <article class="sector-card" id="construction">
-      <h2>Construction &amp; Built Environment</h2>
-      <p class="sector-intro">Builders, civil contractors, project managers, architects and consultants delivering construction, refurbishment and redevelopment projects.</p>
-      <h3>Typical work includes</h3>
-      <ul class="sector-list">
-        <li>Asbestos surveys, monitoring and clearance inspections for construction and refurbishment works</li>
-        <li>Contaminated land assessment and site validation</li>
-        <li>Remediation planning, implementation and oversight</li>
-      </ul>
+      <div class="sector-top">
+        <div class="sector-head">
+          <h2>Construction &amp; Built Environment</h2>
+          <p class="sector-intro">Builders, civil contractors, project managers, architects and consultants delivering construction, refurbishment and redevelopment projects.</p>
+        </div>
+        <div class="sector-work-list">
+          <h3>Typical work includes</h3>
+          <ul class="sector-list">
+            <li>Asbestos surveys, monitoring and clearance inspections for construction and refurbishment works</li>
+            <li>Contaminated land assessment and site validation</li>
+            <li>Remediation planning, implementation and oversight</li>
+          </ul>
+        </div>
+      </div>
+      <div class="sector-projects">
+        <h3>Selected work</h3>
+        <div class="work-grid">
+          <div class="work-card">
+            <div class="client">RSGx Engineering<span class="client-project">Western Sydney Airport</span></div>
+            <h4>Respirable silica exposure monitoring</h4>
+            <p>Personal exposure monitoring for tunnelling workers during airport construction, including control verification.</p>
+          </div>
+          <div class="work-card">
+            <div class="client">Arenco<span class="client-project">Chullora Tank Annex</span></div>
+            <h4>VOC-impacted soil remediation</h4>
+            <p>On-site oversight of remediation works including VOC monitoring, sampling and waste classification.</p>
+          </div>
+          <div class="work-card">
+            <div class="client">Grindley<span class="client-project">North Academy, West Wallsend</span></div>
+            <h4>Soil waste classification</h4>
+            <p>Waste classification and validation assessment supporting construction works.</p>
+          </div>
+        </div>
+      </div>
     </article>
 
     <article class="sector-card" id="property-facilities">
-      <h2>Property, Facilities &amp; Safety Management</h2>
-      <p class="sector-intro">Property, facilities and workplace health and safety teams managing operational sites and portfolios.</p>
-      <h3>Typical work includes</h3>
-      <ul class="sector-list">
-        <li>Hazardous materials registers and ongoing compliance and risk management</li>
-        <li>Air quality, exposure and personal monitoring</li>
-        <li>Assessment and ongoing monitoring of environmental and occupational exposures and risks, including emerging contaminants</li>
-      </ul>
+      <div class="sector-top">
+        <div class="sector-head">
+          <h2>Property, Facilities &amp; Safety Management</h2>
+          <p class="sector-intro">Property, facilities and workplace health and safety teams managing operational sites and portfolios.</p>
+        </div>
+        <div class="sector-work-list">
+          <h3>Typical work includes</h3>
+          <ul class="sector-list">
+            <li>Hazardous materials registers and ongoing compliance and risk management</li>
+            <li>Air quality, exposure and personal monitoring</li>
+            <li>Assessment and ongoing monitoring of environmental and occupational exposures and risks, including emerging contaminants</li>
+          </ul>
+        </div>
+      </div>
+      <div class="sector-projects">
+        <h3>Selected work</h3>
+        <div class="work-grid">
+          <div class="work-card">
+            <div class="client">Cleanaway Daniels</div>
+            <h4>Occupational air quality monitoring</h4>
+            <p>Ongoing VOC, dust and atmospheric gas monitoring at an operational waste management facility.</p>
+          </div>
+          <div class="work-card">
+            <div class="client">National Heavy Vehicle Regulator</div>
+            <h4>Diesel particulate exposure monitoring</h4>
+            <p>Personal and static monitoring at vehicle inspection stations across NSW.</p>
+          </div>
+          <div class="work-card">
+            <div class="client">Presbyterian Aged Care</div>
+            <h4>Hazardous materials surveys and management planning</h4>
+            <p>Surveys and registers across 11 operational facilities, with a portfolio-level management plan.</p>
+          </div>
+        </div>
+      </div>
     </article>
 
   </div>
