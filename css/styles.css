@@ -280,7 +280,7 @@ footer ul li a:hover,
 .people-group { font-size: 11px; font-weight: 700; color: #71BE43; text-transform: uppercase; letter-spacing: 0.1em; margin: 40px 0 20px; padding-bottom: 10px; border-bottom: 1px solid #ececec; }
 /* Two rows of three, every card the same width and height.
    `grid-auto-rows: 1fr` equalises the two row heights. */
-.people-grid { display: grid; grid-template-columns: repeat(3, 1fr); grid-auto-rows: 1fr; gap: 24px; }
+.people-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 
 /* Person card — green ground with circular headshot, per Capability Statement */
 .person-card { display: flex; flex-direction: column; background: #71BE43; border-radius: 8px; padding: 28px 26px 26px; position: relative; overflow: hidden; }
