@@ -46,19 +46,25 @@ window.GETEX_SEARCH_INDEX = [
 "page": "Services",
 "url": "services/#asbestos",
 "heading": "Asbestos & Hazardous Materials",
-"text": "Asbestos surveys, air monitoring, clearance and hazardous materials management. Core services: Asbestos surveys and registers Asbestos removal control plans Licensed Asbestos Assessor services Asbestos air monitoring and clearance inspections Hazardous materials surveys: lead, SMF, PCBs, ODS Hazardous materials registers and management plans Where this is applied: Operational facilities and occupied sites Refurbishment and demolition works Infrastructure and public assets"
+"text": "Asbestos surveys, air monitoring, clearance and hazardous materials management. Core services: Asbestos surveys and registers Asbestos removal control plans Licensed Asbestos Assessor services Asbestos air monitoring and clearance inspections Asbestos in soil Hazardous materials surveys and lead testing: lead, SMF, PCBs, ODS Hazardous materials registers and management plans Site supervision: on-site oversight during asbestos removal and hazardous materials works Where this is applied: Operational facilities and occupied sites Refurbishment and demolition works Infrastructure and public assets"
 },
 {
 "page": "Services",
 "url": "services/#contaminated-land",
 "heading": "Contaminated Land",
-"text": "Risk-based investigation, remediation and validation, including soil, groundwater and landfill gas assessment. Led by a Certified Environmental Practitioner (Site Contamination). Core services: Soil, water and sediment sampling Site contamination assessments Waste classification Remedial Action Plans Site validation and management plans Landfill gas and acid sulfate soil assessments Emerging contaminants monitoring, including PFAS screening and assessment Pre-purchase and due diligence environmental assessments VENM certificates and soil classification Where this is applied: Redevelopment, land-use change and commercial projects Operational industrial sites Infrastructure and civil projects"
+"text": "Risk-based investigation, remediation and validation, including soil, groundwater and landfill gas assessment. Led by a Certified Environmental Practitioner (Site Contamination). Core services: Preliminary Site Investigations (PSI) and Detailed Site Investigations (DSI) Soil, water and sediment sampling Site contamination assessments Waste classification Remedial Action Plans Site validation and management plans Landfill gas and acid sulfate soil assessments Emerging contaminants monitoring, including PFAS screening and assessment Pre-purchase and due diligence environmental assessments VENM certificates and soil classification Groundwater monitoring Underground storage tank (UST) removal validation Where this is applied: Redevelopment, land-use change and commercial projects Operational industrial sites Infrastructure and civil projects"
 },
 {
 "page": "Services",
 "url": "services/#occupational-hygiene",
 "heading": "Occupational Hygiene",
-"text": "Exposure monitoring and air quality assessment across dust, silica, fumes and contaminants. Core services: Occupational exposure monitoring Dust and particulate monitoring, including respirable crystalline silica Indoor and outdoor air-quality assessments Water-quality testing Mould investigations Where this is applied: Active construction sites Operational facilities Industrial and infrastructure environments"
+"text": "Exposure monitoring and air quality assessment across dust, silica, noise, lighting, fumes and contaminants. Core services: Occupational exposure monitoring Dust and particulate monitoring, including respirable crystalline silica Dust deposit gauges: passive dust deposition monitoring Indoor and outdoor air-quality assessments Noise assessment: workplace noise exposure monitoring Lighting assessment: workplace lighting and illuminance assessment Water-quality testing Mould investigations Clandestine drug laboratory assessments Where this is applied: Active construction sites Operational facilities Industrial and infrastructure environments"
+},
+{
+"page": "Services",
+"url": "services/#training",
+"heading": "Training",
+"text": "Practical, on-site training tailored to staff, contractors or the public, across asbestos, hazardous materials, contaminated land and occupational hygiene. Asbestos awareness training Hazardous materials identification training Site-specific inductions for hazardous materials and contamination risks"
 },
 {
 "page": "Sectors",

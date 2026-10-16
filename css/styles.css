@@ -119,6 +119,7 @@ nav.breadcrumb { display: block; position: static; height: auto; padding: 0;
 .service-detail-head h2 { font-size: 30px; font-weight: 700; color: #1a1a1a; margin-bottom: 12px; }
 .service-detail-head p { font-size: 16px; color: #666; line-height: 1.65; }
 .service-detail-body { display: grid; grid-template-columns: 1.6fr 1fr; gap: 48px; align-items: start; }
+.service-detail-body--single { grid-template-columns: 1fr; max-width: 720px; }
 .service-detail-core h3,
 .service-detail-applied h3 { font-size: 11px; font-weight: 700; color: #71BE43; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 16px; }
 .service-detail-core .service-list li { font-size: 14.5px; color: #444; padding: 7px 0 7px 18px; line-height: 1.5; }
