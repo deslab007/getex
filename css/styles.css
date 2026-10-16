@@ -920,6 +920,7 @@ footer ul li a:hover,
    glazing, so crop to keep faces in frame and deepen the left of the
    overlay to hold white-text contrast. */
 .sectors-hero .page-hero-img { object-position: center 38%; }
+.news-hero .page-hero-img { object-position: center 14%; }
 .sectors-hero .page-hero-overlay {
   /* Hold contrast to ~48% across, where the headline ends, then fall away
      quickly so the subjects are not dimmed. */
