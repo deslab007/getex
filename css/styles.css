@@ -921,6 +921,9 @@ footer ul li a:hover,
    overlay to hold white-text contrast. */
 .sectors-hero .page-hero-img { object-position: center 38%; }
 .news-hero .page-hero-img { object-position: center 14%; }
+/* Services: zoom in from the left edge so the two people sit right of the heading */
+.services-hero .page-hero-img { width: 125%; max-width: none; object-position: left 4%; }
+@media (max-width: 768px) { .services-hero .page-hero-img { width: 100%; object-position: 62% 20%; } }
 .sectors-hero .page-hero-overlay {
   /* Hold contrast to ~48% across, where the headline ends, then fall away
      quickly so the subjects are not dimmed. */
