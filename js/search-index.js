@@ -202,7 +202,19 @@ window.GETEX_SEARCH_INDEX = [
 "page": "News & Insights",
 "url": "news/",
 "heading": "News & Insights",
-"text": "Technical updates and commentary on hazardous materials, contaminated land and occupational hygiene. Search articles All Asbestos & Hazardous Materials Contaminated Land Occupational Hygiene"
+"text": "Technical updates and commentary on hazardous materials, contaminated land and occupational hygiene. Search articles All Asbestos & Hazardous Materials Contaminated Land Occupational Hygiene Occupational Hygiene"
+},
+{
+"page": "News & Insights",
+"url": "news/",
+"heading": "Silica exposure doesn’t have to be constant to count",
+"text": "A floor grind once a quarter or a few holes drilled dry can push silica levels past the exposure limit within minutes. Why occasional tasks still count — and who should be measuring them. 16 October 2026 Contaminated Land"
+},
+{
+"page": "News & Insights",
+"url": "news/",
+"heading": "VENM certificates: what they are and when you need one",
+"text": "Moving excavated soil off site? A VENM certificate lets clean spoil be reused or transported without chemical testing or an EPA licence. Here’s how the assessment works. Guide"
 },
 {
 "page": "News & Insights",

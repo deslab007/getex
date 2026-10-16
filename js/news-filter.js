@@ -35,6 +35,8 @@
 
     // The empty state doubles as the no-results state
     empty.hidden = visible > 0;
+    var title = empty.querySelector('[data-noresults-title]');
+    if (title) title.textContent = cards().length ? title.dataset.noresultsTitle : title.dataset.emptyTitle;
     grid.hidden = visible === 0;
   }
 
