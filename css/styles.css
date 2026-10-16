@@ -131,7 +131,7 @@ nav.breadcrumb { display: block; position: static; height: auto; padding: 0;
 
 /* "Where this is applied" — elevated surface, sits above the section ground */
 .service-detail-applied { background: #f7fdf2; border: 1px solid #e2f0d6; border-left: 3px solid #71BE43; border-radius: 6px; padding: 24px 26px; }
-.service-detail.alt .service-detail-applied { background: #fff; border-color: #e8e8e8; border-left-color: #71BE43; }
+.service-detail.alt .service-detail-applied { background: #f7fdf2; border-color: #e2f0d6; border-left-color: #71BE43; }
 .service-detail-applied ul { list-style: none; }
 .service-detail-applied li { font-size: 14px; color: #555; line-height: 1.55; padding: 7px 0 7px 18px; position: relative; }
 .service-detail-applied li::before { content: '–'; position: absolute; left: 0; color: #71BE43; }
