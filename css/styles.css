@@ -1090,6 +1090,10 @@ nav ul li a, .nav-cta { white-space: nowrap; }
     linear-gradient(135deg, #1f2a1b 0%, #2a2a2a 100%);
 }
 .article-hero--placeholder .page-hero-overlay { background: none; }
+.silica-hero { height: 600px; }
+.silica-hero .page-hero-img { object-position: 60% 45%; }
+@media (max-width: 768px) { .silica-hero { height: auto; } }
+.silica-hero .page-hero-overlay { background: linear-gradient(to right, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.45) 45%, rgba(0,0,0,0.05) 80%); }
 .article-hero .page-hero-content { max-width: 900px; }
 .article-hero h1 { font-size: 44px; letter-spacing: -0.8px; }
 .article-meta { font-size: 14px; color: rgba(255,255,255,0.78); }
