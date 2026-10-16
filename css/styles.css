@@ -124,6 +124,10 @@ nav.breadcrumb { display: block; position: static; height: auto; padding: 0;
 .service-detail-applied h3 { font-size: 11px; font-weight: 700; color: #71BE43; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 16px; }
 .service-detail-core .service-list li { font-size: 14.5px; color: #444; padding: 7px 0 7px 18px; line-height: 1.5; }
 .service-detail-core .service-list li::before { content: '–'; color: #71BE43; }
+/* Dropdown items link to individual bullets: clear the sticky header and flag the bullet */
+.service-detail-core .service-list li[id], .service-detail[id] { scroll-margin-top: 110px; }
+.service-detail-core .service-list li:target { animation: bullet-flag 2.6s cubic-bezier(0.2,0.7,0.3,1) 1; border-radius: 4px; }
+@keyframes bullet-flag { 0%, 45% { background: rgba(113,190,67,0.18); box-shadow: 0 0 0 6px rgba(113,190,67,0.18); } 100% { background: rgba(113,190,67,0); box-shadow: 0 0 0 6px rgba(113,190,67,0); } }
 
 /* "Where this is applied" — elevated surface, sits above the section ground */
 .service-detail-applied { background: #f7fdf2; border: 1px solid #e2f0d6; border-left: 3px solid #71BE43; border-radius: 6px; padding: 24px 26px; }
