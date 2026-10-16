@@ -20,6 +20,7 @@ PAGES = [
     ('about/index.html', 'About'),
     ('venm-certificate/index.html', 'VENM Certificates'),
     ('news/index.html', 'News & Insights'),
+    ('news/silica-exposure-occasional-tasks/index.html', 'News & Insights'),
     ('contact/index.html', 'Contact'),
 ]
 SKIP_TAGS = {'script', 'style', 'noscript', 'svg', 'nav', 'footer', 'form', 'template'}

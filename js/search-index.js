@@ -142,7 +142,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "About",
 "url": "about/#our-people",
 "heading": "An experienced technical team.",
-"text": "Getex is an experienced team of environmental and occupational hygiene professionals delivering consistent, high-quality outcomes. Justin Thompson-Laing Principal Bachelor of Science (Honours) CEnvP Site Contamination Specialist Licensed Asbestos Assessor NATA Accredited Inspection Surveyor NATA Accredited Signatory Environmental and occupational hygiene specialist with extensive experience across contaminated land, hazardous materials and site-based monitoring. Provides technical direction and quality oversight across all projects. ↓ Download profile Brodie Bishop Senior Consultant Bachelor of Science (Chemistry) Master of Environment (Environmental Management) Diploma of Laboratory Technology Licensed Asbestos Assessor NATA Accredited Signatory NATA Accredited Airborne Contaminant Exposure Sampler ↓ Download profile Cameron Becker Senior Consultant Bachelor of Science (Honours) Licensed Asbestos Assessor NATA Accredited Signatory NATA Accredited Inspection Surveyor NATA Accredited Airborne Contaminant Exposure Sampler Provisional Member, Australian Institute of Occupational Hygienists ↓ Download profile Sara Bakhshian Shahrbabaki Senior Consultant Bachelor of Science (Occupational Health Engineering) Associate Member, Australian Institute of Occupational Hygienists ↓ Download profile Brynley Pfull Environmental Consultant Bachelor of Environmental Science NATA Accredited Inspection Surveyor NATA Accredited Airborne Contaminant Exposure Sampler Associate Member, Australian Institute of Occupational Hygienists ↓ Download profile Hugh Scullin Environmental Consultant Bachelor of Science (Environmental & Resource Geology) NATA Accredited Inspection Surveyor NATA Accredited Airborne Contaminant Exposure Sampler ↓ Download profile Kyle Renshaw Junior Consultant Bachelor of Science (Biology and Chemistry) (expected 2026) Laetitia Shand Specialist, Client and Commercial Services Bachelor of Business (Marketing) Project Management Professional (PMP) Nina Kovach Office Manager Bachelor of Arts Careers"
+"text": "Getex is an experienced team of environmental and occupational hygiene professionals delivering consistent, high-quality outcomes. Justin Thompson-Laing Principal Bachelor of Science (Honours) CEnvP Site Contamination Specialist Licensed Asbestos Assessor NATA Accredited Inspection Surveyor NATA Accredited Signatory Environmental and occupational hygiene specialist with extensive experience across contaminated land, hazardous materials and site-based monitoring. Provides technical direction and quality oversight across all projects. ↓ Download profile Sara Bakhshian Shahrbabaki Senior Consultant Bachelor of Science (Occupational Health Engineering) Associate Member, Australian Institute of Occupational Hygienists ↓ Download profile Cameron Becker Senior Consultant Bachelor of Science (Honours) Licensed Asbestos Assessor NATA Accredited Signatory NATA Accredited Inspection Surveyor NATA Accredited Airborne Contaminant Exposure Sampler Provisional Member, Australian Institute of Occupational Hygienists ↓ Download profile Brodie Bishop Senior Consultant Bachelor of Science (Chemistry) Master of Environment (Environmental Management) Diploma of Laboratory Technology Licensed Asbestos Assessor NATA Accredited Signatory NATA Accredited Airborne Contaminant Exposure Sampler ↓ Download profile Brynley Pfull Environmental Consultant Bachelor of Environmental Science NATA Accredited Inspection Surveyor NATA Accredited Airborne Contaminant Exposure Sampler Associate Member, Australian Institute of Occupational Hygienists ↓ Download profile Hugh Scullin Environmental Consultant Bachelor of Science (Environmental & Resource Geology) NATA Accredited Inspection Surveyor NATA Accredited Airborne Contaminant Exposure Sampler ↓ Download profile Kyle Renshaw Junior Consultant Bachelor of Science (Biology and Chemistry) (expected 2026) Laetitia Shand Specialist, Client and Commercial Services Bachelor of Business (Marketing) Project Management Professional (PMP) Nina Kovach Office Manager Bachelor of Arts Careers"
 },
 {
 "page": "About",
@@ -203,6 +203,36 @@ window.GETEX_SEARCH_INDEX = [
 "url": "news/",
 "heading": "News & Insights",
 "text": "Technical updates and commentary on hazardous materials, contaminated land and occupational hygiene. Search articles All Asbestos & Hazardous Materials Contaminated Land Occupational Hygiene"
+},
+{
+"page": "News & Insights",
+"url": "news/silica-exposure-occasional-tasks/",
+"heading": "Silica exposure doesn’t have to be constant to count",
+"text": "16 October 2026 4 min read Silica exposure isn’t only a function of how often a person works with silica. A short, occasional task can generate exposure to respirable crystalline silica that counts towards the same exposure limit as continuous work. We run quarterly respirable crystalline silica monitoring for a multi-site operator, across several of their sites. Their work might include floor grinding one time, core drilling the next. It doesn’t need to be constant to need measuring."
+},
+{
+"page": "News & Insights",
+"url": "news/silica-exposure-occasional-tasks/",
+"heading": "Who this actually applies to",
+"text": "Concrete, brick, tile, sandstone, mortar, stone, cutting, grinding, drilling, or polishing or even handling can put you in scope. Some examples that are easy to overlook: Workshops and depots doing floor grinding, concrete resurfacing, or core drilling for cabling and pipework as routine upkeep Equipment hire businesses whose service staff handle or repair returned cutting and grinding gear carrying residual dust Multi-site operators doing occasional masonry or tile work during a fit-out, at one site, maybe once Demolition, foundries, abrasive blasting with silica-containing media, and landscaping or paving work Working out what needs monitoring and when, and then working out what to do about it, is core occupational hygiene work, and exactly the kind of thing we help with. We can understand your exposure and develop a sensible plan."
+},
+{
+"page": "News & Insights",
+"url": "news/silica-exposure-occasional-tasks/",
+"heading": "Why “occasional” doesn’t mean “low risk”",
+"text": "Ordinary concrete is roughly a quarter crystalline silica by weight. Task-based air monitoring shows that dry-cutting or grinding without water suppression or dust extraction can produce airborne concentrations well above the limit, sometimes within minutes. Even drilling a handful of holes dry has been measured exceeding limits. Silicosis risk relates specifically to particles small enough to reach deep into the lungs, roughly under 7 microns, which is why it’s measured cumulatively across years rather than single days. A task that happens only a few times a year, done the same way each time, still contributes to a worker’s long-term exposure. Exposure also varies significantly between tasks, and even between individuals doing the same task, which is part of why a single air sample rarely tells the full story on its own. Interpreting the result properly matters as much as taking the measurement."
+},
+{
+"page": "News & Insights",
+"url": "news/silica-exposure-occasional-tasks/",
+"heading": "Same cumulative dose, very different exposure profiles",
+"text": "Everyday, continuous work Occasional bursts, a few times a year Illustrative model, not measured data. Top panel: exposure concentration on a day-by-day basis. Bottom panel: the resulting cumulative dose, the figure that correlates with long-term silicosis risk in occupational health research. View the data as a table Cumulative exposure (mg/m³-years), illustrative model Year Everyday, continuous work Occasional bursts"
+},
+{
+"page": "News & Insights",
+"url": "news/silica-exposure-occasional-tasks/#silica-chart",
+"heading": "Where to start",
+"text": "If cutting or grinding happens anywhere across your sites, even rarely, it’s worth knowing where that work sits against the current limit. Assuming everything’s fine is a bit like a foundation “built on sand”. This is the kind of exposure assessment we carry out to work out where a task sits against the limit, and what controls, whether engineering controls like water suppression and dust extraction, or respiratory protective equipment, would keep exposure under it. If it would help to talk through what that looks like for your business, please get in touch. Discuss a project Our occupational hygiene services → ← All news & insights"
 },
 {
 "page": "Contact",
