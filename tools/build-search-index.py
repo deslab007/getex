@@ -16,7 +16,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGES = [
     ('index.html', 'Home'),
     ('services/index.html', 'Services'),
-    ('sectors/index.html', 'Sectors'),
+    ('sectors/index.html', 'Our work'),
     ('about/index.html', 'About'),
     ('venm-certificate/index.html', 'VENM Certificates'),
     ('news/index.html', 'News & Insights'),

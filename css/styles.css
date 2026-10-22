@@ -1083,12 +1083,18 @@ nav ul li a, .nav-cta { white-space: nowrap; }
 .sector-top > * { min-width: 0; }
 .sector-head h2 { font-size: 26px; }
 .sector-head .sector-intro { margin-bottom: 0; font-size: 16px; }
-.sector-projects { margin-top: 30px; padding-top: 26px; border-top: 1px solid #ececec; }
+.sector-head { max-width: 760px; }
+.sector-projects { margin-top: 28px; }
+.sector-work-list { margin-top: 30px; padding-top: 26px; border-top: 1px solid #ececec; }
+.sector-work-list .sector-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 48px; }
+.sector-work-list .sector-list li:last-child, .sector-work-list .sector-list li:nth-last-child(2) { border-bottom: none; padding-bottom: 0; }
 .sector-projects .work-grid { margin-top: 14px; }
 .sector-projects .work-card p { font-size: 14px; color: #666; line-height: 1.6; }
 @media (max-width: 1024px) {
   .sector-top { grid-template-columns: 1fr; gap: 24px; }
   .sector-projects .work-grid { grid-template-columns: 1fr; }
+  .sector-work-list .sector-list { grid-template-columns: 1fr; }
+  .sector-work-list .sector-list li:nth-last-child(2) { border-bottom: 1px solid #ededea; padding-bottom: 11px; }
 }
 @media (max-width: 768px) { .sector-card { padding: 26px 22px 24px; } .sector-head h2 { font-size: 20px; } }
 
