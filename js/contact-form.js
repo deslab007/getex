@@ -146,7 +146,7 @@
         if (!response.ok) throw new Error('Request failed: ' + response.status);
         form.reset();
         RULES.forEach(clearError);
-        setStatus('Thank you — your enquiry has been sent. We will be in touch shortly.', 'success');
+        setStatus('Thank you, your enquiry has been sent. We will be in touch shortly.', 'success');
       })
       .catch(function () {
         setStatus('Sorry, something went wrong sending your enquiry. Please call (02) 9889 2488 or email ' + FALLBACK_EMAIL + '.', 'error');

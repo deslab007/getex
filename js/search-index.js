@@ -165,7 +165,7 @@ window.GETEX_SEARCH_INDEX = [
 {
 "page": "VENM Certificates",
 "url": "venm-certificate/",
-"heading": "VENM certificates and soil classification — Sydney and NSW",
+"heading": "VENM certificates and soil classification in Sydney and NSW",
 "text": "A VENM (Virgin Excavated Natural Material) certificate confirms that excavated soil or rock is uncontaminated and can be reused or transported off-site without chemical testing or an EPA licence. Getex provides VENM assessment and certification for construction and civil projects across Sydney and NSW, helping builders, developers and councils manage spoil disposal efficiently and in compliance with NSW EPA requirements. What is VENM?"
 },
 {
@@ -214,7 +214,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "News & Insights",
 "url": "news/",
 "heading": "Silica exposure doesn’t have to be constant to count",
-"text": "A floor grind once a quarter or a few holes drilled dry can push silica levels past the exposure limit within minutes. Why occasional tasks still count — and who should be measuring them. 16 October 2026 Contaminated Land"
+"text": "A floor grind once a quarter or a few holes drilled dry can push silica levels past the exposure limit within minutes. Why occasional tasks still count, and who should be measuring them. 16 October 2026 Contaminated Land"
 },
 {
 "page": "News & Insights",
