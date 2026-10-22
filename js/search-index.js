@@ -3,8 +3,8 @@ window.GETEX_SEARCH_INDEX = [
 {
 "page": "Home",
 "url": "./",
-"heading": "Hazardous materials, contaminated land & occupational hygiene consultancy.",
-"text": "Delivering assessment, remediation and validation across complex sites since 2005. Discuss a project Request a quote"
+"heading": "Hazardous materials, contaminated land & occupational hygiene consultancy",
+"text": "Delivering assessment, remediation and validation across complex sites since 2005 Discuss a project Request a quote"
 },
 {
 "page": "Home",
@@ -39,7 +39,7 @@ window.GETEX_SEARCH_INDEX = [
 {
 "page": "Services",
 "url": "services/",
-"heading": "Hazardous materials, contaminated land and occupational hygiene.",
+"heading": "Hazardous materials, contaminated land and occupational hygiene",
 "text": "Getex holds over 20 years of expertise in hazardous materials, contaminated land and occupational hygiene across Sydney and New South Wales."
 },
 {
@@ -70,7 +70,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "Sectors",
 "url": "sectors/",
 "heading": "Who we work with",
-"text": "Serving property managers, councils, government agencies, hospitals, schools and builders."
+"text": "Serving property managers, councils, government agencies, hospitals, schools and builders"
 },
 {
 "page": "Sectors",
@@ -99,8 +99,8 @@ window.GETEX_SEARCH_INDEX = [
 {
 "page": "About",
 "url": "about/",
-"heading": "NATA-accredited environmental and occupational hygiene consultancy.",
-"text": "Independent advice, informed by over 20 years of project history. Getex specialises in hazardous materials, contaminated land and occupational hygiene. Operating since 2005, Getex works across public assets, sensitive environments, construction projects and property portfolios. Getex has offices in Sydney and the Central Coast, with projects delivered across regional New South Wales and interstate."
+"heading": "NATA-accredited environmental and occupational hygiene consultancy",
+"text": "Independent advice, informed by over 20 years of project history Getex specialises in hazardous materials, contaminated land and occupational hygiene. Operating since 2005, Getex works across public assets, sensitive environments, construction projects and property portfolios. Getex has offices in Sydney and the Central Coast, with projects delivered across regional New South Wales and interstate."
 },
 {
 "page": "About",
@@ -118,7 +118,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "About",
 "url": "about/#what-we-bring",
 "heading": "What we bring",
-"text": "The principles that shape how we work with our clients."
+"text": "The principles that shape how we work with our clients"
 },
 {
 "page": "About",
@@ -147,13 +147,13 @@ window.GETEX_SEARCH_INDEX = [
 {
 "page": "About",
 "url": "about/#our-people",
-"heading": "An experienced technical team.",
+"heading": "An experienced technical team",
 "text": "Getex is an experienced team of environmental and occupational hygiene professionals delivering consistent, high-quality outcomes. Justin Thompson-Laing Principal Bachelor of Science (Honours) CEnvP Site Contamination Specialist Licensed Asbestos Assessor NATA Accredited Inspection Surveyor NATA Accredited Signatory Environmental and occupational hygiene specialist with extensive experience across contaminated land, hazardous materials and site-based monitoring. Provides technical direction and quality oversight across all projects. ↓ Download profile Sara Bakhshian Shahrbabaki Senior Consultant Bachelor of Science (Occupational Health Engineering) Associate Member, Australian Institute of Occupational Hygienists ↓ Download profile Cameron Becker Senior Consultant Bachelor of Science (Honours) Licensed Asbestos Assessor NATA Accredited Signatory NATA Accredited Inspection Surveyor NATA Accredited Airborne Contaminant Exposure Sampler Provisional Member, Australian Institute of Occupational Hygienists ↓ Download profile Brodie Bishop Senior Consultant Bachelor of Science (Chemistry) Master of Environment (Environmental Management) Diploma of Laboratory Technology Licensed Asbestos Assessor NATA Accredited Signatory NATA Accredited Airborne Contaminant Exposure Sampler ↓ Download profile Brynley Pfull Environmental Consultant Bachelor of Environmental Science NATA Accredited Inspection Surveyor NATA Accredited Airborne Contaminant Exposure Sampler Associate Member, Australian Institute of Occupational Hygienists ↓ Download profile Hugh Scullin Environmental Consultant Bachelor of Science (Environmental & Resource Geology) NATA Accredited Inspection Surveyor NATA Accredited Airborne Contaminant Exposure Sampler ↓ Download profile Kyle Renshaw Junior Consultant Bachelor of Science (Biology and Chemistry) (expected 2026) Laetitia Shand Specialist, Client and Commercial Services Bachelor of Business (Marketing) Project Management Professional (PMP) Nina Kovach Office Manager Bachelor of Arts Careers"
 },
 {
 "page": "About",
 "url": "about/#careers",
-"heading": "Join the team.",
+"heading": "Join the team",
 "text": "Getex offers opportunities for environmental and occupational hygiene professionals. We place a strong emphasis on technical capability, professional qualifications and ongoing development. Roles include Senior Consultant, Consultant, and Graduate positions. To apply, please send your cv to recruitment@getex.com.au ."
 },
 {
@@ -171,31 +171,31 @@ window.GETEX_SEARCH_INDEX = [
 {
 "page": "VENM Certificates",
 "url": "venm-certificate/",
-"heading": "Defined under the NSW Protection of the Environment Operations Act 1997.",
+"heading": "Defined under the NSW Protection of the Environment Operations Act 1997",
 "text": "Under the NSW Protection of the Environment Operations Act 1997, VENM is defined as natural material such as clay, gravel, sand, soil or rock fines that has been excavated from areas not contaminated by industrial, commercial, mining or agricultural activities, and that does not contain sulfidic ores, soils or any other waste. Material that has been stockpiled, processed or potentially impacted cannot be classified as VENM. When do you need a VENM certificate?"
 },
 {
 "page": "VENM Certificates",
 "url": "venm-certificate/",
-"heading": "Before spoil leaves site.",
+"heading": "Before spoil leaves site",
 "text": "A VENM certificate is required when excavated material is to be transported off-site for reuse at another location. It is commonly required by councils, receiving sites and project managers before spoil can be accepted."
 },
 {
 "page": "VENM Certificates",
 "url": "venm-certificate/",
 "heading": "Common project types",
-"text": "Basement excavations Road and infrastructure works Tunnel spoil Civil earthworks Development sites Test pit excavation and inspection of natural material on site. How Getex assesses and certifies VENM"
+"text": "Basement excavations Road and infrastructure works Tunnel spoil Civil earthworks Development sites Test pit excavation and inspection of natural material on site How Getex assesses and certifies VENM"
 },
 {
 "page": "VENM Certificates",
 "url": "venm-certificate/",
-"heading": "A defensible assessment, start to certificate.",
+"heading": "A defensible assessment, start to certificate",
 "text": "01 Reviews the historical and current land use of the excavation site 02 Assesses whether any contaminating activities have occurred on or adjacent to the site 03 Considers naturally occurring asbestos risk using SafeWork NSW mapping 04 Prepares a certificate in accordance with the NSW EPA template Where the classification is not straightforward, Getex can undertake targeted soil sampling and testing to support the assessment. Who we work with"
 },
 {
 "page": "VENM Certificates",
 "url": "venm-certificate/",
-"heading": "Builders, contractors, developers and councils.",
+"heading": "Builders, contractors, developers and councils",
 "text": "Getex provides VENM assessments for builders, civil contractors, developers, councils and infrastructure operators across Sydney and NSW. The service is commonly required as part of broader contaminated land or waste classification programs."
 },
 {
@@ -208,7 +208,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "News & Insights",
 "url": "news/",
 "heading": "News & Insights",
-"text": "Technical updates and commentary on hazardous materials, contaminated land and occupational hygiene. Search articles All Asbestos & Hazardous Materials Contaminated Land Occupational Hygiene Occupational Hygiene"
+"text": "Technical updates and commentary on hazardous materials, contaminated land and occupational hygiene Search articles All Asbestos & Hazardous Materials Contaminated Land Occupational Hygiene Occupational Hygiene"
 },
 {
 "page": "News & Insights",
@@ -218,7 +218,7 @@ window.GETEX_SEARCH_INDEX = [
 },
 {
 "page": "News & Insights",
-"url": "news/",
+"url": "news/#venm-certificates",
 "heading": "VENM certificates: what they are and when you need one",
 "text": "Moving excavated soil off site? A VENM certificate lets clean spoil be reused or transported without chemical testing or an EPA licence. Here’s how the assessment works. Guide"
 },
