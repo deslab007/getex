@@ -1314,3 +1314,43 @@ nav ul li a, .nav-cta { white-space: nowrap; }
   .svc-cta { padding: 40px 20px; }
   .svc-cta p { font-size: 20px; }
 }
+
+/* =========================================================
+   SERVICES: ACCREDITATION BAND (full-bleed, slimline)
+   ========================================================= */
+.accred-band { background: #2f4a22; padding: 14px 16px 16px; }
+.accred-band-list { list-style: none; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.accred-band-list li { display: flex; flex-direction: column; }
+.accred-band-logo {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  height: 84px; background: #fff; border-radius: 4px; padding: 10px; text-decoration: none;
+}
+.accred-band-logo img { height: 64px; width: auto; display: block; }
+a.accred-band-logo { transition: transform 0.18s cubic-bezier(0.2,0.7,0.3,1), box-shadow 0.18s ease; }
+a.accred-band-logo:hover { transform: translateY(-2px); box-shadow: 0 6px 16px -6px rgba(0,0,0,0.35); }
+a.accred-band-logo:active { transform: translateY(0); }
+a.accred-band-logo:focus-visible { outline: 2px solid #8fd45f; outline-offset: 2px; }
+.accred-band-text { font-size: 30px; font-weight: 800; letter-spacing: 0.06em; color: #2f4a22; }
+.accred-band-label { margin-top: 10px; text-align: center; font-size: 13.5px; font-weight: 700; color: #fff; line-height: 1.35; }
+.accred-band-label span { display: block; margin-top: 2px; font-size: 12.5px; font-weight: 400; font-style: italic; color: rgba(255,255,255,0.78); }
+
+@media (max-width: 1024px) {
+  .accred-band-label { font-size: 12.5px; }
+  .accred-band-logo { height: 76px; }
+  .accred-band-logo img { height: 56px; }
+}
+/* Phones: one swipeable row so the band stays slim */
+@media (max-width: 768px) {
+  .accred-band { padding: 12px 0 14px; }
+  .accred-band-list {
+    display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding: 0 16px;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }
+  .accred-band-list::-webkit-scrollbar { display: none; }
+  .accred-band-list li { flex: 0 0 150px; scroll-snap-align: start; }
+  .accred-band-list li:first-child { margin-left: 16px; }
+  .accred-band-list li:last-child { margin-right: 16px; }
+  .accred-band-logo { height: 68px; }
+  .accred-band-logo img { height: 48px; }
+  .accred-band-text { font-size: 24px; }
+}
