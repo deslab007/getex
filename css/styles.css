@@ -200,7 +200,7 @@ footer ul li a:hover,
   .work-grid,
   .sectors-right,
   .footer-inner { grid-template-columns: 1fr; }
-  .sector-photo.tall img { height: 240px; }
+  .sector-photo img, .sector-photo.tall img { height: auto; }
   .page-header h1 { font-size: 28px; }
   .section-title,
   .sectors-left h2,
