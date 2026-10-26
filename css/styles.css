@@ -1248,69 +1248,83 @@ nav ul li a, .nav-cta { white-space: nowrap; }
 }
 
 /* =========================================================
-   SERVICES PAGE (reworked): intro + photo left, detail right
+   SERVICES PAGE: heading across the top, then photo + services panel
+   side by side at matching heights, full width
    ========================================================= */
-.svc { background: #fff; padding: 80px 80px; scroll-margin-top: 72px; }
+.svc { background: #fff; padding: 72px 80px; scroll-margin-top: 72px; }
 .svc--alt { background: #f7f7f5; }
-.svc-inner { display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr); gap: 64px; align-items: start; max-width: 1280px; }
-.svc-intro { position: sticky; top: 104px; }
-.svc-intro h2 { font-size: 34px; font-weight: 700; color: #1a1a1a; line-height: 1.15; letter-spacing: -0.6px; margin-bottom: 16px; }
-.svc-intro p { font-size: 17px; color: #555; line-height: 1.7; margin-bottom: 28px; }
-.svc-photo { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;
+.svc-head { max-width: 860px; margin-bottom: 30px; }
+.svc-head h2 { font-size: 34px; font-weight: 700; color: #1a1a1a; line-height: 1.15; letter-spacing: -0.6px; margin-bottom: 14px; }
+.svc-head p { font-size: 17px; color: #555; line-height: 1.7; }
+.svc-inner { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: 28px; align-items: stretch; }
+.svc-media { position: relative; min-height: 380px; }
+.svc-photo { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 10px;
   box-shadow: 0 1px 2px rgba(26,40,16,0.06), 0 18px 36px -20px rgba(26,40,16,0.3); }
-.svc-photo--placeholder {
-  display: flex; align-items: flex-end; padding: 18px 20px;
-  background:
-    radial-gradient(ellipse at 85% 15%, rgba(113,190,67,0.30) 0%, rgba(113,190,67,0) 60%),
-    radial-gradient(ellipse at 5% 100%, rgba(113,190,67,0.14) 0%, rgba(113,190,67,0) 55%),
-    linear-gradient(135deg, #1f2a1b 0%, #2a2a2a 100%);
+.svc-media .svc-photo { position: absolute; inset: 0; }
+
+/* Services panel: brand-green header, light green body, check bullets */
+.svc-detail { display: flex; flex-direction: column; background: #f1f8eb; border-radius: 10px; overflow: hidden;
+  box-shadow: 0 1px 2px rgba(26,40,16,0.05), 0 18px 36px -22px rgba(65,110,35,0.35); border-top: 6px solid #71BE43; }
+.svc-detail-title { background: #71BE43; color: #fff; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em;
+  padding: 10px 28px 14px; margin: 0; }
+.svc-detail .service-list { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; padding: 22px 28px 4px; }
+.svc-detail .service-list li {
+  position: relative; background: #fff; border-radius: 8px;
+  padding: 12px 14px 12px 46px; font-size: 14.5px; color: #2a2a2a; line-height: 1.45; border: 1px solid #e1efd5;
+  scroll-margin-top: 110px;
 }
-.svc-photo--placeholder span { font-size: 13px; font-style: italic; color: rgba(255,255,255,0.72); }
-.svc-detail { background: #fff; border: 1px solid #e8e8e8; border-top: 3px solid #71BE43; border-radius: 8px; padding: 32px 36px 34px;
-  box-shadow: 0 1px 2px rgba(26,40,16,0.04), 0 14px 30px -20px rgba(26,40,16,0.16); }
-.svc--alt .svc-detail { border-color: #e6e6e3; border-top-color: #71BE43; }
-.svc-detail h3 { font-size: 11px; font-weight: 700; color: #4f9a28; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 12px; }
-.svc-detail .service-list li { font-size: 15px; color: #333; line-height: 1.5; padding: 10px 0 10px 20px; border-bottom: 1px solid #f0f0ee; scroll-margin-top: 110px; }
-.svc-detail .service-list li:last-child { border-bottom: 0; }
-.svc-detail .service-list li::before { content: '–'; color: #71BE43; }
-.svc-detail .service-list li:target { animation: bullet-flag 2.6s cubic-bezier(0.2,0.7,0.3,1) 1; border-radius: 4px; }
-.svc-applied { margin-top: 26px; padding-top: 22px; border-top: 1px solid #ececec; }
+.svc-detail .service-list li::before {
+  content: ''; position: absolute; left: 14px; top: 12px; width: 20px; height: 20px; border-radius: 50%;
+  background: #71BE43 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center / 12px 12px no-repeat;
+}
+.svc-detail .service-list li:target { animation: bullet-flag 2.6s cubic-bezier(0.2,0.7,0.3,1) 1; }
+.svc-detail .service-list .inline-link { color: #3f7f1f; font-weight: 600; }
+/* Training: no panel title and only three items, so one column, larger, centred in the panel */
+.svc-detail > .service-list:first-child { grid-template-columns: 1fr; padding: 28px; gap: 12px; margin: auto 0; }
+.svc-detail > .service-list:first-child li { font-size: 16px; padding: 18px 18px 18px 52px; }
+.svc-detail > .service-list:first-child li::before { left: 18px; top: 18px; }
+
+.svc-applied { margin-top: auto; padding: 18px 28px 24px; }
+.svc-applied h3 { font-size: 11px; font-weight: 700; color: #3f7f1f; text-transform: uppercase; letter-spacing: 0.12em; margin: 8px 0 10px; }
 .svc-pills { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
 .svc-pills a {
-  display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 999px;
-  background: #f4faef; border: 1px solid #d9ecc9; color: #3f7f1f; font-size: 13.5px; font-weight: 600; text-decoration: none;
-  transition: background 0.18s ease, border-color 0.18s ease, transform 0.18s cubic-bezier(0.2,0.7,0.3,1);
+  display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 999px;
+  background: #2f4a22; color: #fff; font-size: 13.5px; font-weight: 600; text-decoration: none;
+  transition: background 0.18s ease, transform 0.18s cubic-bezier(0.2,0.7,0.3,1);
 }
-.svc-pills a::after { content: '→'; font-weight: 400; transition: transform 0.18s cubic-bezier(0.2,0.7,0.3,1); }
-.svc-pills a:hover { background: #e9f5df; border-color: #b9dca0; }
-.svc-pills a:hover::after { transform: translateX(2px); }
+.svc-pills a::after { content: '→'; font-weight: 400; color: #a5dc7f; transition: transform 0.18s cubic-bezier(0.2,0.7,0.3,1); }
+.svc-pills a:hover { background: #3f7f1f; }
+.svc-pills a:hover::after { transform: translateX(3px); }
 .svc-pills a:active { transform: scale(0.97); }
 .svc-pills a:focus-visible { outline: 2px solid #71BE43; outline-offset: 2px; }
 
 .svc-cta { background: #1a1a1a; padding: 56px 80px; position: relative; overflow: hidden; }
 .svc-cta::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: #71BE43; }
-.svc-cta-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 40px; max-width: 1280px; }
+.svc-cta-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 40px; }
 .svc-cta p { font-size: 24px; font-weight: 700; color: #fff; line-height: 1.35; letter-spacing: -0.2px; }
 .svc-cta-btn { white-space: nowrap; }
 .svc-cta-btn:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 
 @media (max-width: 1024px) {
-  .svc { padding: 64px 40px; }
-  .svc-inner { gap: 40px; }
-  .svc-intro h2 { font-size: 28px; }
+  .svc { padding: 60px 40px; }
+  .svc-head h2 { font-size: 28px; }
   .svc-cta { padding: 48px 40px; }
 }
-@media (max-width: 860px) {
-  .svc-inner { grid-template-columns: 1fr; gap: 28px; }
-  .svc-intro { position: static; }
-  .svc-photo { aspect-ratio: 16 / 9; }
+@media (max-width: 1024px) {
+  .svc-inner { grid-template-columns: 1fr; gap: 20px; }
+  .svc-media { min-height: 0; }
+  .svc-media .svc-photo { position: static; aspect-ratio: 16 / 9; height: auto; }
+  .svc-detail .service-list { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 768px) {
-  .svc { padding: 48px 20px; }
-  .svc-intro h2 { font-size: 25px; letter-spacing: -0.3px; }
-  .svc-intro p { font-size: 16px; margin-bottom: 22px; }
-  .svc-detail { padding: 22px 20px 24px; }
+  .svc { padding: 44px 20px; }
+  .svc-head { margin-bottom: 22px; }
+  .svc-head h2 { font-size: 25px; letter-spacing: -0.3px; }
+  .svc-head p { font-size: 16px; }
+  .svc-detail-title { padding: 9px 18px 12px; }
+  .svc-detail .service-list { grid-template-columns: 1fr; padding: 16px 16px 2px; gap: 8px; }
   .svc-detail .service-list li { font-size: 14.5px; }
+  .svc-applied { padding: 14px 16px 18px; }
   .svc-cta { padding: 40px 20px; }
   .svc-cta p { font-size: 20px; }
 }

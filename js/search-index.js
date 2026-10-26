@@ -40,7 +40,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "Services",
 "url": "services/",
 "heading": "Hazardous materials, contaminated land and occupational hygiene",
-"text": "Getex holds over 20 years of expertise in hazardous materials, contaminated land and occupational hygiene across Sydney and New South Wales."
+"text": "Getex holds over 20 years of expertise in hazardous materials, contaminated land and occupational hygiene across Sydney and New South Wales. NATA accredited (ISO/IEC 17020) ISO 9001 and ISO 45001 Licensed Asbestos Assessors CEnvP Site Contamination Specialist Held by our Principal CEnvP General Certification Held by our Principal"
 },
 {
 "page": "Services",
