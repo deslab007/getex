@@ -64,7 +64,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "Services",
 "url": "services/#training",
 "heading": "Training",
-"text": "Practical, on-site training tailored to staff, contractors or the public, across asbestos, hazardous materials, contaminated land and occupational hygiene. Photo: training session (Laetitia to provide) Asbestos awareness training Hazardous materials identification training Site-specific inductions for hazardous materials and contamination risks Not sure which service you need? Send us your project details. Discuss a project"
+"text": "Practical, on-site training tailored to staff, contractors or the public, across asbestos, hazardous materials, contaminated land and occupational hygiene. Asbestos awareness training Hazardous materials identification training Site-specific inductions for hazardous materials and contamination risks Not sure what you need? Send us your project details Discuss a project"
 },
 {
 "page": "Our work",
@@ -212,7 +212,7 @@ window.GETEX_SEARCH_INDEX = [
 },
 {
 "page": "News & Insights",
-"url": "news/",
+"url": "news/#silica-exposure",
 "heading": "Silica exposure doesn’t have to be constant to count",
 "text": "A floor grind once a quarter or a few holes drilled dry can push silica levels past the exposure limit within minutes. Why occasional tasks still count, and who should be measuring them. 16 October 2026 Contaminated Land"
 },
