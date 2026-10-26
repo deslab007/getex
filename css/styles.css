@@ -1339,18 +1339,24 @@ a.accred-band-logo:focus-visible { outline: 2px solid #fff; outline-offset: 2px;
   .accred-band-logo { height: 76px; }
   .accred-band-logo img { height: 56px; }
 }
-/* Phones: one swipeable row so the band stays slim */
+/* Small tablets: five across, tighter */
 @media (max-width: 768px) {
-  .accred-band { padding: 12px 0 14px; }
-  .accred-band-list {
-    display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding: 0 16px;
-    scrollbar-width: none; -webkit-overflow-scrolling: touch;
-  }
-  .accred-band-list::-webkit-scrollbar { display: none; }
-  .accred-band-list li { flex: 0 0 150px; scroll-snap-align: start; }
-  .accred-band-list li:first-child { margin-left: 16px; }
-  .accred-band-list li:last-child { margin-right: 16px; }
-  .accred-band-logo { height: 68px; }
-  .accred-band-logo img { height: 48px; }
-  .accred-band-text { font-size: 24px; }
+  .accred-band-list { gap: 8px; }
+  .accred-band-logo { height: 64px; padding: 8px; }
+  .accred-band-logo img { height: 44px; }
+  .accred-band-text { font-size: 22px; }
+  .accred-band-label { font-size: 12px; }
+  .accred-band-label span { font-size: 11px; }
 }
+/* Phones: all five visible in a two-column grid (last one centred) */
+@media (max-width: 560px) {
+  .accred-band { padding: 14px 16px 16px; }
+  .accred-band-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 10px; }
+  .accred-band-list li:last-child { grid-column: 1 / -1; width: calc(50% - 5px); justify-self: center; }
+  .accred-band-logo { height: 64px; padding: 8px; }
+  .accred-band-logo img { height: 46px; }
+  .accred-band-text { font-size: 24px; }
+  .accred-band-label { margin-top: 7px; font-size: 12.5px; }
+  .accred-band-label span { font-size: 11.5px; }
+}
+
