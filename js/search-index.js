@@ -118,7 +118,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "About",
 "url": "about/",
 "heading": "Integrity, flexibility and quality on every project",
-"text": "NATA-accredited environmental and occupational hygiene consultancy Getex specialises in hazardous materials, contaminated land and occupational hygiene. Operating since 2005, Getex works from offices in Sydney and the Central Coast, with projects across regional New South Wales and interstate."
+"text": "NATA-accredited environmental and occupational hygiene consultancy Operating since 2005, Getex works from offices in Sydney and the Central Coast, with projects across regional New South Wales and interstate."
 },
 {
 "page": "About",
