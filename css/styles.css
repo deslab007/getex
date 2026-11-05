@@ -1261,6 +1261,8 @@ nav ul li a, .nav-cta { white-space: nowrap; }
 .svc-photo { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 10px;
   box-shadow: 0 1px 2px rgba(26,40,16,0.06), 0 18px 36px -20px rgba(26,40,16,0.3); }
 .svc-media .svc-photo { position: absolute; inset: 0; }
+/* Very wide screens: stop the photo slot getting too short for its photo */
+@media (min-width: 1800px) { .svc-media { min-height: 30vw; } }
 
 /* Services panel: brand-green header, light green body, check bullets */
 .svc-detail { display: flex; flex-direction: column; background: #f1f8eb; border-radius: 10px; overflow: hidden;
@@ -1279,11 +1281,6 @@ nav ul li a, .nav-cta { white-space: nowrap; }
 }
 .svc-detail .service-list li:target { animation: bullet-flag 2.6s cubic-bezier(0.2,0.7,0.3,1) 1; }
 .svc-detail .service-list .inline-link { color: #3f7f1f; font-weight: 600; }
-/* Training: no panel title and only three items, so one column, larger, centred in the panel */
-.svc-detail > .service-list:first-child { grid-template-columns: 1fr; padding: 28px; gap: 12px; margin: auto 0; }
-.svc-detail > .service-list:first-child li { font-size: 16px; padding: 18px 18px 18px 52px; }
-.svc-detail > .service-list:first-child li::before { left: 18px; top: 18px; }
-
 .svc-applied { margin-top: auto; padding: 18px 28px 24px; }
 .svc-applied h3 { font-size: 11px; font-weight: 700; color: #3f7f1f; text-transform: uppercase; letter-spacing: 0.12em; margin: 8px 0 10px; }
 .svc-pills { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }

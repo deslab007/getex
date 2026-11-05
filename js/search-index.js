@@ -46,25 +46,43 @@ window.GETEX_SEARCH_INDEX = [
 "page": "Services",
 "url": "services/#asbestos",
 "heading": "Asbestos & Hazardous Materials",
-"text": "Asbestos surveys, air monitoring, clearance and hazardous materials management, delivered by Licensed Asbestos Assessors and NATA-accredited inspection surveyors. Core services: Asbestos surveys and registers Asbestos removal control plans Licensed Asbestos Assessor services Asbestos air monitoring and clearance inspections Asbestos in soil Hazardous materials surveys and lead testing: lead, SMF, PCBs, ODS Hazardous materials registers and management plans Site supervision: on-site oversight during asbestos removal and hazardous materials works Where this is applied: Government and councils Health, education and defence Property and facilities"
+"text": "Asbestos surveys, air monitoring, clearance and hazardous materials management, delivered by Licensed Asbestos Assessors and NATA-accredited inspection surveyors. Core services: Asbestos surveys and registers Asbestos removal control plans Licensed Asbestos Assessor services Asbestos air monitoring and clearance inspections Asbestos in soil Hazardous materials surveys and testing: lead, SMF, PCBs, ODS Hazardous materials registers and management plans Site supervision: on-site oversight during asbestos removal and hazardous materials works"
+},
+{
+"page": "Services",
+"url": "services/#asbestos",
+"heading": "Our Work For",
+"text": "Government and councils Health, education and defence Property and facilities"
 },
 {
 "page": "Services",
 "url": "services/#contaminated-land",
 "heading": "Contaminated Land",
-"text": "Risk-based investigation, remediation and validation, including soil, groundwater and landfill gas assessment. Led by a Certified Environmental Practitioner (Site Contamination). Core services: Preliminary Site Investigations (PSI) and Detailed Site Investigations (DSI) Soil, water and sediment sampling Site contamination assessments Waste classification Remedial Action Plans Site validation and management plans Landfill gas and acid sulfate soil assessments Emerging contaminants monitoring, including PFAS screening and assessment Pre-purchase and due diligence environmental assessments VENM certificates and soil classification Groundwater monitoring Underground storage tank (UST) removal validation Where this is applied: Government and councils Construction and built environment"
+"text": "Risk-based investigation, remediation and validation, including soil, groundwater and landfill gas assessment. Led by a Certified Environmental Practitioner (Site Contamination). Core services: Preliminary Site Investigations (PSI) and Detailed Site Investigations (DSI) Soil, water and sediment sampling Site contamination assessments Waste classification Remedial Action Plans Site validation and management plans Landfill gas and acid sulfate soil assessments Emerging contaminants monitoring, including PFAS screening and assessment Pre-purchase and due diligence environmental assessments VENM certificates and soil classification Groundwater monitoring Underground storage tank (UST) removal validation"
+},
+{
+"page": "Services",
+"url": "services/#contaminated-land",
+"heading": "Our Work For",
+"text": "Government and councils Construction and built environment"
 },
 {
 "page": "Services",
 "url": "services/#occupational-hygiene",
 "heading": "Occupational Hygiene",
-"text": "Exposure monitoring and air quality assessment across dust, silica, noise, lighting, fumes and contaminants. Our airborne contaminant monitoring is NATA-accredited. Core services: Occupational exposure monitoring Dust and particulate monitoring, including respirable crystalline silica Dust deposit gauges: passive dust deposition monitoring Indoor and outdoor air-quality assessments Noise assessment: workplace noise exposure monitoring Lighting assessment: workplace lighting and illuminance assessment Water-quality testing Mould investigations Clandestine drug laboratory assessments Where this is applied: Property and facilities Construction and built environment Health, education and defence"
+"text": "Exposure monitoring and air quality assessment across dust, silica, noise, lighting, fumes and contaminants. Our airborne contaminant monitoring is NATA-accredited. Core services: Occupational exposure monitoring Dust and particulate monitoring, including respirable crystalline silica Dust deposit gauges: passive dust deposition monitoring Indoor and outdoor air quality assessments Noise assessment: workplace noise exposure monitoring Lighting assessment: workplace lighting and illuminance assessment Water quality testing Mould investigations Clandestine drug laboratory assessments"
+},
+{
+"page": "Services",
+"url": "services/#occupational-hygiene",
+"heading": "Our Work For",
+"text": "Property and facilities Construction and built environment Health, education and defence"
 },
 {
 "page": "Services",
 "url": "services/#training",
 "heading": "Training",
-"text": "Practical, on-site training tailored to staff, contractors or the public, across asbestos, hazardous materials, contaminated land and occupational hygiene. Asbestos awareness training Hazardous materials identification training Site-specific inductions for hazardous materials and contamination risks Not sure what you need? Send us your project details Discuss a project"
+"text": "Practical, on-site training tailored to staff, contractors or the public, across asbestos, hazardous materials, contaminated land and occupational hygiene. Core services: Asbestos awareness training Hazardous materials identification training Site-specific inductions for hazardous materials and contamination risks Not sure what you need? Send us your project details Discuss a project"
 },
 {
 "page": "Our work",
