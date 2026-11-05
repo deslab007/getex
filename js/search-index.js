@@ -274,7 +274,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "Contact",
 "url": "contact/",
 "heading": "Contact Getex",
-"text": "Discuss your project, request a quote or get in touch with the team. Enquiry form"
+"text": "Discuss your project, request a quote or get in touch with the team Enquiry form"
 },
 {
 "page": "Contact",
