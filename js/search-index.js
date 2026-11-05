@@ -10,7 +10,7 @@ window.GETEX_SEARCH_INDEX = [
 "page": "Home",
 "url": "./",
 "heading": "Asbestos & Hazardous Materials",
-"text": "Asbestos surveys, air monitoring, clearance and hazardous materials management. Asbestos surveys and registers Licensed Asbestos Assessor services Air monitoring and clearance Hazardous materials surveys: lead, SMF, PCBs View services →"
+"text": "Asbestos surveys, air monitoring, clearance and hazardous materials management. Asbestos surveys and registers Licensed Asbestos Assessor services Air monitoring and clearance Hazardous materials surveys: lead, SMF, PCBs, ODS View services →"
 },
 {
 "page": "Home",
