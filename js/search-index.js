@@ -226,19 +226,19 @@ window.GETEX_SEARCH_INDEX = [
 "page": "News & Insights",
 "url": "news/",
 "heading": "News & Insights",
-"text": "Technical updates and commentary on hazardous materials, contaminated land and occupational hygiene Search articles All Asbestos & Hazardous Materials Contaminated Land Occupational Hygiene Occupational Hygiene"
+"text": "Technical updates and commentary on hazardous materials, contaminated land and occupational hygiene Search articles All Asbestos & Hazardous Materials Contaminated Land Occupational Hygiene Contaminated Land"
+},
+{
+"page": "News & Insights",
+"url": "news/#venm-certificates",
+"heading": "Conducting VENM assessments: what they involve and how Getex can help",
+"text": "A VENM result can be the difference between low-cost reuse and landfill rates. What the assessment involves, the criteria Getex applies, and the common issues that cost time or money. 27 October 2026 Occupational Hygiene"
 },
 {
 "page": "News & Insights",
 "url": "news/#silica-exposure",
 "heading": "Silica exposure doesn’t have to be constant to count",
-"text": "A floor grind once a quarter or a few holes drilled dry can push silica levels past the exposure limit within minutes. Why occasional tasks still count, and who should be measuring them. 16 October 2026 Contaminated Land"
-},
-{
-"page": "News & Insights",
-"url": "news/#venm-certificates",
-"heading": "VENM certificates: what they are and when you need one",
-"text": "Moving excavated soil off site? A VENM certificate lets clean spoil be reused or transported without chemical testing or an EPA licence. Here’s how the assessment works. Guide"
+"text": "A floor grind once a quarter or a few holes drilled dry can push silica levels past the exposure limit within minutes. Why occasional tasks still count, and who should be measuring them. 16 October 2026"
 },
 {
 "page": "News & Insights",
@@ -269,6 +269,60 @@ window.GETEX_SEARCH_INDEX = [
 "url": "news/silica-exposure-occasional-tasks/#silica-chart",
 "heading": "Where to start",
 "text": "If cutting or grinding happens anywhere across your sites, even rarely, it’s worth knowing where that work sits against the current limit. Assuming everything’s fine is a bit like a foundation “built on sand”. This is the kind of exposure assessment we carry out to work out where a task sits against the limit, and what controls, whether engineering controls like water suppression and dust extraction, or respiratory protective equipment, would keep exposure under it. If it would help to talk through what that looks like for your business, please get in touch. Discuss a project Our occupational hygiene services → ← All news & insights"
+},
+{
+"page": "News & Insights",
+"url": "news/venm-assessments/",
+"heading": "Conducting VENM Assessments: What They Involve and How Getex Can Help",
+"text": "27 October 2026 Justin Thompson-Laing 7 min read"
+},
+{
+"page": "News & Insights",
+"url": "news/venm-assessments/",
+"heading": "Why VENM matters",
+"text": "A VENM assessment confirms that excavated soil or rock is natural, uncontaminated and fit to move off site or be reused without being treated as a contaminated waste. Getting that call right is often the difference between sending material to a receiving site at low cost and paying landfill rates for General Solid Waste or worse. Virgin Excavated Natural Material (VENM) is the cleanest classification available for excavated material in NSW. It covers natural clay, gravel, sand, soil and rock fines dug or quarried from land that has not been contaminated by industrial, commercial, mining or agricultural activity, and that contains no sulfidic ores or soils and no other waste. Because VENM can be accepted by quarries, fill sites and development projects that will not take anything else, a defensible VENM report is a commercial document as much as a technical one. Receiving sites rely on it, and so do regulators if the material is ever questioned."
+},
+{
+"page": "News & Insights",
+"url": "news/venm-assessments/",
+"heading": "The regulatory framework",
+"text": "VENM is defined in Schedule 1 of the Protection of the Environment Operations Act 1997 and applied through the NSW EPA Waste Classification Guidelines Part 1: Classifying Waste (2014). That definition is the test every Getex VENM report is written against. Material that is natural but does not meet the VENM definition may still be reusable as Excavated Natural Material (ENM). ENM is governed by a resource recovery order, The Excavated Natural Material Order 2014 , made under the POEO (Waste) Regulation 2014. The EPA still lists that order, dated 21 November 2014, as current ( NSW EPA ). The two classifications work differently in practice: VENM and ENM compared VENM ENM Basis Definition in POEO Act Schedule 1 Excavated Natural Material Order 2014 Test Natural, from uncontaminated land, no sulfidic material or other waste Prescribed sampling density, analytes and limits in the Order Analytes in Getex scopes TRH, BTEX, heavy metals, PAHs, OCPs, PCBs, asbestos TRH, BTEX, metals, PAHs, EC, pH, foreign materials (rubber, plastic, bitumen, paper, cloth, paint, wood), asbestos Typical material Undisturbed natural soil and rock, e.g. Hawkesbury Sandstone Natural material with some disturbance, e.g. topsoil Material that meets neither test is classified as waste under the Guidelines and goes to a licensed facility. Getex reports also draw on supporting references: NEPM 2013 Schedule B(2) for sample handling, the NSW eSPADE soil landscape service, the EPA contaminated land register, the acid sulfate soil risk maps and, where needed, Site Investigations for Urban Salinity (DLWC, 2002)."
+},
+{
+"page": "News & Insights",
+"url": "news/venm-assessments/",
+"heading": "When you need a VENM assessment",
+"text": "You need one whenever excavated material is leaving a site for reuse, or arriving at one, and the receiving party wants proof it is clean natural material. In Getex’s project files the requests fall into a handful of recurring situations. When you need a VENM assessment: examples from Getex projects Situation Example from Getex projects What the client needed Bulk earthworks feeding a receiving site About 2,500 m³ assessed in situ before export to a business park in Penrith Acceptance by the receiving site Quarry or stockpiled rock About 630 m³ of crushed sandstone in two stockpiles at a Central Coast quarry VENM classification for sale or transfer Residential excavation 400 m³ from a 550 m² vacant block on the Central Coast, fill over natural sand ENM for the fill layer, VENM for the natural sand beneath Infrastructure works Spoil from conduit trenching at an electrical substation in Sydney’s north A certificate per excavation location, on a unit rate Small construction stockpile About 15 m³ of clayey sandstone at a harbourside club redevelopment VENM plus a salinity class for reuse Council development over fill Natural soils beneath surficial fill at a proposed aquatic centre in south-west Sydney Separating reusable natural soil from fill needing other management The common thread is cost and certainty. A VENM result opens the cheapest disposal and reuse options. Without one, the default is a waste classification and landfill."
+},
+{
+"page": "News & Insights",
+"url": "news/venm-assessments/",
+"heading": "How Getex conducts a VENM assessment",
+"text": "Every Getex VENM assessment combines a desktop check, a site inspection, sampling and laboratory analysis, then tests the results against a fixed set of criteria. The material is classified VENM only if it passes every one. Desktop review. We check the EPA contaminated land register and the acid sulfate soil risk maps, and pull the expected soil landscape and bedrock from eSPADE. We also ask the client for site history. Services clearance. Sampling locations are cleared through Before You Dig plans and a services locator before any ground is broken. Site inspection. A consultant inspects the material and the surrounding area for signs of contamination: surface staining, stored chemicals, above or below ground tanks, and neighbouring activities. Sampling. In-situ material is sampled from test pits on a systematic grid, with a separate sample from each layer where fill sits over natural ground. Stockpiles are sampled around their faces, scaled to volume. Laboratory analysis. Samples go to the laboratory on a standard 5-day turnaround. A 24-hour turnaround is available, typically at about double the analysis cost. Assessment and reporting. Results are compared against the criteria below and the classification is stated in the report. The criteria Getex applies in every VENM report: The criteria Getex applies in every VENM report Criterion How it is checked Pass condition Contaminated land register EPA register search Site not listed Acid sulfate soils ASS risk maps Site not in a potential ASS area Physical condition Site inspection No odour, staining or visible asbestos Soil type eSPADE soil landscape Consistent with natural soils for the location Bedrock type eSPADE soil landscape Consistent with natural geology for the location Chemistry Laboratory analysis Background levels, and at least below the General Solid Waste threshold (CT1) Salinity (where required) EC testing against DLWC 2002 classes Non-saline Sampling density depends on the material. As a guide from recent jobs, a 15 m³ stockpile took 3 samples, a 630 m³ stockpile took 10, and a 550 m² residential site took 5 grid locations under the ENM Order."
+},
+{
+"page": "News & Insights",
+"url": "news/venm-assessments/",
+"heading": "What you receive",
+"text": "You receive a VENM Assessment Report that states a clear classification and the evidence behind it, reviewed by a Certified Environmental Practitioner (Site Contamination). Receiving sites can check every step. The report contains: Scope, site address, sampling date and report number Material description: type, location and estimated volume Number of samples, analytes tested and sample handling method The assessment criteria applied A results table for each material, ending in a stated classification Limitations of the assessment Appendices: site map, photographs, sample results against criteria, and the laboratory reports Where the material does not make VENM, the work is not wasted. Getex scopes jobs so the same sampling feeds the next classification down: VENM if every criterion is met, with a VENM certificate. ENM if the material is natural but fails the VENM test and meets the ENM Order, with an ENM certificate. Waste classification if it meets neither, so the material can go to the right licensed facility. A classification reflects the material at the sampled locations on the day of sampling. If a stockpile is later added to or mixed, the report no longer covers it."
+},
+{
+"page": "News & Insights",
+"url": "news/venm-assessments/",
+"heading": "Common issues that cost time or money",
+"text": "Most delays and failed classifications on VENM jobs are avoidable if they are planned for before excavation starts. Fill mixed into natural material. Where fill or topsoil sits over natural ground, digging it out together can turn reusable VENM into waste. Getex samples each layer separately so they can be excavated and classified separately. Unknown volumes. Sample numbers depend on area and volume. Where these are not yet known, as on staged infrastructure trenching, a unit rate per location keeps the job moving. Little site history. A VENM call rests partly on what the land has been used for. The more history a client can provide, the stronger the conclusion. Receiving site requirements. Some receiving sites want more than a VENM classification, such as a salinity class. Confirming their acceptance criteria first avoids a second round of sampling. Services not cleared. Sampling cannot start until underground services are cleared. Supplying Before You Dig plans and a locator report up front saves a delay. Laboratory turnaround. The standard turnaround is 5 days. Rush analysis is available but roughly doubles analysis cost, so sampling early in the programme is cheaper. Changes after sampling. Material added to a stockpile after sampling is not covered by the report. Keep classified stockpiles separate and protected."
+},
+{
+"page": "News & Insights",
+"url": "news/venm-assessments/",
+"heading": "How Getex can help",
+"text": "Getex delivers VENM, ENM and waste classification assessments across Sydney and NSW, led by a Certified Environmental Practitioner (Site Contamination). We have provided environmental and occupational hygiene consultancy since 2005, hold ISO 9001 and ISO 45001 certification, and are NATA accredited to ISO/IEC 17020. We work with builders, civil contractors, developers, quarries, infrastructure operators and councils. Jobs range from a 15 m³ stockpile to bulk earthworks of several thousand cubic metres, priced as a fixed fee or on unit rates per location. To get a quote, send us: Site address and the area to be excavated Estimated volume and type of material, and whether fill sits over natural ground Where the material is going and any acceptance criteria from the receiving site Any known site history Your programme and when you need the report VENM is often one part of a larger job, and the same team can cover site contamination assessments, Remedial Action Plans, validation and acid sulfate soil assessment. Contact Getex on (02) 9889 2488 or help@getex.com.au . Request a quote Our contaminated land services →"
+},
+{
+"page": "News & Insights",
+"url": "news/venm-assessments/",
+"heading": "References",
+"text": "NSW EPA, Current resource recovery orders and exemptions NSW EPA, Waste Classification Guidelines Part 1: Classifying Waste (2014) Protection of the Environment Operations Act 1997 , Schedule 1 ← All news & insights"
 },
 {
 "page": "Contact",
