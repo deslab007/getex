@@ -1,23 +1,28 @@
 /* Getex — enquiry form
  *
- * A static site has no server to post to. Set FORM_ENDPOINT below to a form
- * service (Formspree, Web3Forms, Netlify Forms) and the form will POST there
- * as JSON. While it is empty, the form validates and then opens a pre-filled
- * email to help@getex.com.au so enquiries still reach Getex.
+ * Sends the enquiry straight from the page to help@getex.com.au through
+ * Web3Forms (https://web3forms.com), a form-to-email service for static sites.
+ * The access key below is created for help@getex.com.au on web3forms.com; it
+ * only allows sending to that inbox, so it is safe to have in the page.
  *
  * On the WordPress migration, replace this file with the theme's form handler.
  */
 (function () {
   'use strict';
 
-  var FORM_ENDPOINT = '';                  // <-- set this to go live
-  var FALLBACK_EMAIL = 'help@getex.com.au';
+  var WEB3FORMS_ACCESS_KEY = '';           // <-- paste the key from web3forms.com to go live
+  var ENDPOINT = 'https://api.web3forms.com/submit';
+  var CONTACT_EMAIL = 'help@getex.com.au';
+  var CONTACT_PHONE = '(02) 9889 2488';
 
   var form = document.getElementById('enquiry-form');
   if (!form) return;
 
   var status = document.getElementById('form-status');
   var submit = form.querySelector('.form-submit');
+  var sent = document.getElementById('form-sent');
+  var sentName = document.getElementById('form-sent-name');
+  var again = document.getElementById('form-sent-again');
 
   var RULES = [
     { name: 'first_name',   error: 'e-first-name', message: 'Please enter your first name.' },
@@ -98,22 +103,23 @@
     };
   }
 
-  function mailtoFallback(data) {
-    var body = [
-      'Name: ' + data.first_name + ' ' + data.last_name,
-      'Organisation: ' + (data.organisation || '-'),
-      'Email: ' + data.email,
-      'Phone: ' + (data.phone || '-'),
-      'Enquiry type: ' + data.enquiry_type,
-      '',
-      data.message
-    ].join('\n');
+  function showSent(data) {
+    form.reset();
+    RULES.forEach(clearError);
+    if (status) status.hidden = true;
+    if (sentName) sentName.textContent = data.first_name ? ', ' + data.first_name : '';
+    form.hidden = true;
+    sent.hidden = false;
+    sent.focus();
+  }
 
-    window.location.href = 'mailto:' + FALLBACK_EMAIL +
-      '?subject=' + encodeURIComponent('Website enquiry: ' + data.enquiry_type) +
-      '&body=' + encodeURIComponent(body);
-
-    setStatus('Your email app should now open with your enquiry ready to send. If it does not, email us directly at ' + FALLBACK_EMAIL + '.', 'info');
+  if (again) {
+    again.addEventListener('click', function () {
+      sent.hidden = true;
+      form.hidden = false;
+      var first = form.querySelector('input, textarea');
+      if (first) first.focus();
+    });
   }
 
   form.addEventListener('submit', function (event) {
@@ -129,30 +135,44 @@
 
     var data = payload();
 
-    if (!FORM_ENDPOINT) {
-      mailtoFallback(data);
+    if (!WEB3FORMS_ACCESS_KEY) {
+      setStatus('Online enquiries are not switched on yet. Please email ' + CONTACT_EMAIL + ' or call ' + CONTACT_PHONE + '.', 'error');
       return;
     }
 
     submit.disabled = true;
+    submit.setAttribute('aria-busy', 'true');
     setStatus('Sending your enquiry…', 'info');
 
-    fetch(FORM_ENDPOINT, {
+    fetch(ENDPOINT, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify(data)
+      body: JSON.stringify({
+        access_key: WEB3FORMS_ACCESS_KEY,
+        subject: 'Website enquiry: ' + data.enquiry_type + ' from ' + data.first_name + ' ' + data.last_name,
+        from_name: 'Getex website',
+        replyto: data.email,
+        name: data.first_name + ' ' + data.last_name,
+        email: data.email,
+        organisation: data.organisation || '-',
+        phone: data.phone || '-',
+        enquiry_type: data.enquiry_type,
+        message: data.message,
+        botcheck: ''
+      })
     })
       .then(function (response) {
-        if (!response.ok) throw new Error('Request failed: ' + response.status);
-        form.reset();
-        RULES.forEach(clearError);
-        setStatus('Thank you, your enquiry has been sent. We will be in touch shortly.', 'success');
+        return response.json().catch(function () { return {}; }).then(function (body) {
+          if (!response.ok || body.success === false) throw new Error(body.message || ('Request failed: ' + response.status));
+        });
       })
+      .then(function () { showSent(data); })
       .catch(function () {
-        setStatus('Sorry, something went wrong sending your enquiry. Please call (02) 9889 2488 or email ' + FALLBACK_EMAIL + '.', 'error');
+        setStatus('Sorry, your enquiry could not be sent. Please try again, call ' + CONTACT_PHONE + ' or email ' + CONTACT_EMAIL + '.', 'error');
       })
       .then(function () {
         submit.disabled = false;
+        submit.removeAttribute('aria-busy');
       });
   });
 

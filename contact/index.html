@@ -168,12 +168,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="form-card">
 
       <!-- FORM HANDLING
-           No backend exists on a static site. js/contact-form.js validates,
-           then submits to FORM_ENDPOINT if one is configured; with no
-           endpoint it falls back to a pre-filled email to help@getex.com.au
-           so the form is usable today.
-           TODO: set FORM_ENDPOINT in js/contact-form.js (Formspree / Web3Forms
-           / Netlify Forms), or replace with the WordPress form on migration. -->
+           js/contact-form.js validates the form, then sends it straight to
+           help@getex.com.au through Web3Forms and shows the confirmation
+           panel below. Needs WEB3FORMS_ACCESS_KEY set in that file.
+           Replace with the WordPress form on migration. -->
       <form id="enquiry-form" class="enquiry-form" method="post" action="#" novalidate>
 
         <div class="field-row">
@@ -250,6 +248,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <button type="submit" class="btn-primary form-submit">Send enquiry <span class="btn-arrow" aria-hidden="true">&rarr;</span></button>
         <p class="form-status" id="form-status" role="status" aria-live="polite" hidden></p>
       </form>
+
+      <!-- Shown in place of the form once the enquiry has been sent -->
+      <div class="form-sent" id="form-sent" tabindex="-1" role="status" aria-live="polite" hidden>
+        <div class="form-sent-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+        </div>
+        <h3>Thank you<span id="form-sent-name"></span>, your enquiry has been sent</h3>
+        <p>We have received your details and will be in touch shortly. For urgent work, call us on <a href="tel:+61298892488">(02) 9889 2488</a>.</p>
+        <button type="button" class="form-sent-again" id="form-sent-again">Send another enquiry</button>
+      </div>
       </div><!-- /.form-card -->
     </div>
 
